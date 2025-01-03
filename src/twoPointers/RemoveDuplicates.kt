@@ -15,7 +15,7 @@ fun removeDuplicates(nums: IntArray): Int {
 }
 
 fun main() {
-    val nums = intArrayOf(0, 0, 1, 1, 1, 2, 2, 3, 3, 4)
+    val nums = intArrayOf(0, 0, 1, 1, 1, 2, 2, 3, 3, 3)
     val k = removeDuplicates(nums)
     println("Number of unique elements: $k")
     println("Modified array: ${nums.slice(0 until k)}")
