@@ -1,4 +1,4 @@
-package twoPointers
+package array
 
 fun removeDuplicates(nums: IntArray): Int {
     if (nums.isEmpty()) return 0 // Trường hợp mảng rỗng
